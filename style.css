@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+body,
+html{
+    font-family: "SUSE", sans-serif;
+    background: url(one.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navbar{
+    background-color: black;
+}
+h1{
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   justify-content: center;
+    
+}
+.card{
+    margin: 5px;
+}
